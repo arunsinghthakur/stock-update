@@ -5,7 +5,6 @@ import lombok.*;
 @AllArgsConstructor
 @Setter
 @Getter
-@Builder
 public class GetStock {
     private String stockCode;
 }

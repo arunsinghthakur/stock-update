@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.graphql-java-kickstart:graphql-spring-boot-autoconfigure:7.0.1">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphql-java-kickstart/graphql-spring-boot-autoconfigure/7.0.1/4b1ecaef0e63c378f008850c2b88321175f93679/graphql-spring-boot-autoconfigure-7.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.graphql-java-kickstart/graphql-spring-boot-autoconfigure/7.0.1/d8225bb6ade3cfb3daf2b439ac091711c15445f1/graphql-spring-boot-autoconfigure-7.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

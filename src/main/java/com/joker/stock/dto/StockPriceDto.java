@@ -6,7 +6,6 @@ import lombok.*;
 @AllArgsConstructor
 @Setter
 @Getter
-@Builder
 public class StockPriceDto {
     private String stockCode;
     private String oldPrice;

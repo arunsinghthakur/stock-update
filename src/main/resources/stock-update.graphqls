@@ -1,0 +1,19 @@
+schema {
+    query: Query
+}
+
+type Query {
+    getStockPrice(getStock: GetStock): StockPriceDto
+}
+
+type StockPriceDto {
+    stockCode: String!
+    oldPrice: String!
+    newPrice: String!
+}
+
+input GetStock {
+    stockCode: String!
+}
+
+
