@@ -3,7 +3,7 @@ schema {
 }
 
 type Query {
-    getStockPrice(getStock: GetStock): StockPriceDto
+    getStockPrice(stockCode: String!): StockPriceDto
 }
 
 type StockPriceDto {
@@ -12,8 +12,5 @@ type StockPriceDto {
     newPrice: String!
 }
 
-input GetStock {
-    stockCode: String!
-}
 
 

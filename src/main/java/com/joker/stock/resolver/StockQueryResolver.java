@@ -14,5 +14,5 @@ public class StockQueryResolver implements GraphQLQueryResolver {
     @Autowired
     private StockService stockService;
 
-    public StockPriceDto getStockPrice(GetStock stock) {return stockService.getStockPrice(stock);}
+    public StockPriceDto getStockPrice(String stockCode) {return stockService.getStockPrice(stockCode);}
 }
